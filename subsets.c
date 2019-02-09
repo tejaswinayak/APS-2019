@@ -4,8 +4,12 @@
 #include<math.h>
 int main()
 {
-    int n=3;
-    char str[]={'a','b','c'};
+    int n;
+    printf("enter the length for string\n");
+    scanf("%d",&n);
+    char str[n];
+    printf("enter the string\n");
+    scanf("%s",str);
     unsigned int len=pow(2,n);
     int i,j;
     for(i=0;i<len;i++)
@@ -16,8 +20,9 @@ int main()
             {
                 printf("%c",str[j]);
             }
-            printf("\n");
         }
+        printf("\n");
     }
     return 0;
 }
+
