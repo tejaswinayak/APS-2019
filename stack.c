@@ -1,4 +1,5 @@
 #basic operations of a stack such as push,pop and display the top element of the stack
+#THE STACK CAN HOLD A MAXIMUM OF 5 ELEMENTS 
 
 #include <stdio.h>
 #include <stdlib.h>
